@@ -24,4 +24,4 @@ This web application was created by Aditya Tiwary.
 
 ## 
 
-This project is licensed under the MIT License - see the LICENSE.md file for details.
+This project is licensed under the MIT License - see the license file for details.
