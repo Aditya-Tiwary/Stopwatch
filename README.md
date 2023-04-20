@@ -18,6 +18,11 @@ The stopwatch functionality is implemented using JavaScript. The stopwatch.js fi
 6.The resetTimer() function stops the timer, resets all the variables to 0, and updates the display element with the initial "00 hr 00 min 00 sec 00" value.
 7.Event listeners are added to the three button elements in the HTML document with the IDs "start", "stop", and "reset" to call the appropriate functions when clicked.
 
+##Screenshot
+
+![image](https://user-images.githubusercontent.com/83766476/233479794-8d7081d0-6870-473b-a95e-ded8612be732.png)
+
+
 ## Authors
 
 This web application was created by Aditya Tiwary.
