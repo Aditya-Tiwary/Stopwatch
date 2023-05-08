@@ -1,59 +1,62 @@
 body {
-    background-color: rgb(12, 139, 139);
-    font-family: Arial;
-    color: white;
-    justify-content: center;
-    display: flex;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  .container {
-    text-align: center;
-  }
-  
-  .heading {
-    font-size: 100px;
-    font-family: "Times New Roman", serif;
-    margin: 20px;
-  }
-  
-  #display {
-    font-size: 100px;
-    position: relative;
-    font-family: "Times New Roman", serif;
-  }
-  #display {
-    position: relative;
-  }
-  .txt {
-    font-size: 20px;
+  background-color: rgb(12, 139, 139);
+  font-family: Arial;
+  color: white;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
 }
-  #span h6 {
-    font-size: 12px;
-  }
-  
-  
-  button {
-    font-size: 15px;
-    margin: 0 10px;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
 
-  
-  #start {
-    background-color: rgb(47, 182, 47);
-    color: white;
-  }
-  
-  #stop {
-    background-color: rgb(255, 117, 19);
-    color: white;
-  }
-  
-  #reset {
-    background-color: rgb(93, 69, 215);
-    color: white;
-  }
-  
+.container {
+  text-align: center;
+}
+
+.heading {
+  font-size: 100px;
+  font-family: "Times New Roman", serif;
+  margin: 20px;
+}
+
+#display {
+  font-size: 100px;
+  position: relative;
+  font-family: "Times New Roman", serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#display span {
+  margin: 0 20px;
+}
+
+.txt {
+  font-size: 20px;
+  position: relative;
+  top: 25px;
+}
+
+
+button {
+  font-size: 15px;
+  margin: 0 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#start {
+  background-color: rgb(47, 182, 47);
+  color: white;
+}
+
+#stop {
+  background-color: rgb(255, 117, 19);
+  color: white;
+}
+
+#reset {
+  background-color: rgb(93, 69, 215);
+  color: white;
+}
