@@ -12,7 +12,9 @@ The stopwatch functionality is implemented using JavaScript. The stopwatch.js fi
 
 1. The stopwatch keeps track of the elapsed time using four variables: hr, min, sec, and msec, representing hours, minutes, seconds, and milliseconds, respectively.
 
+
 2. The startTimer() function sets an interval timer that calls the runStopwatch() function every 10 milliseconds.
+
 
 3. The runStopwatch() function increments the msec variable by 1, and checks if it has reached 100 milliseconds. If it has, it increments the sec variable by 1 and resets msec to 0. If sec has reached 60, it increments min by 1 and resets sec to 0. Similarly, if min has reached 60, it increments hr by 1 and resets min to 0.
 
