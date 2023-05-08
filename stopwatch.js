@@ -29,7 +29,10 @@ function runStopwatch() {
   let displaySec = sec < 10 ? `0${sec}` : `${sec}`;
   let displayMsec = msec < 10 ? `0${msec}` : `${msec}`;
 
-  document.getElementById("display").innerHTML = `${displayHr} hr ${displayMin} min ${displaySec} sec ${displayMsec}`;
+  document.getElementById("hours").textContent = displayHr;
+  document.getElementById("minutes").textContent = displayMin;
+  document.getElementById("seconds").textContent = displaySec;
+  document.getElementById("milliseconds").textContent = displayMsec;
 }
 
 function stopTimer() {
@@ -42,7 +45,10 @@ function resetTimer() {
   min = 0;
   sec = 0;
   msec = 0;
-  document.getElementById("display").innerHTML = "00 hr 00 min 00 sec 00";
+  document.getElementById("hours").textContent = "00";
+  document.getElementById("minutes").textContent = "00";
+  document.getElementById("seconds").textContent = "00";
+  document.getElementById("milliseconds").textContent = "00";
 }
 
 // Button event listeners
