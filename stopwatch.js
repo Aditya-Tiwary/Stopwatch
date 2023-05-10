@@ -4,8 +4,13 @@ let min = 0;
 let sec = 0;
 let msec = 0;
 let timer;
+let timerRunning = false;
 
 function startTimer() {
+  if (timerRunning) {
+    return;
+  }
+  timerRunning = true;
   timer = setInterval(runStopwatch, 10);
 }
 
@@ -37,10 +42,12 @@ function runStopwatch() {
 
 function stopTimer() {
   clearInterval(timer);
+  timerRunning = false;
 }
 
 function resetTimer() {
   clearInterval(timer);
+  timerRunning = false;
   hr = 0;
   min = 0;
   sec = 0;
